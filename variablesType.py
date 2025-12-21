@@ -1,4 +1,10 @@
 x=7
-type(x)
+print(type(x))
 y=7.5
-type(y)
+print(type(y))
+z=True
+print(type(z))
+a=3+4j
+print(type(a))
+b="sayali"
+print(type(b))
