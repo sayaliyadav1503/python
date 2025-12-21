@@ -71,7 +71,4 @@ flat = [num for sublist in nested for num in sublist]
 print(flat)
 
 
-a = [1, 2, 3]
-b = [4, 5, 6]
-sum_list = [x + y for x, y in zip(a, b)]
-print(sum_list)
+
