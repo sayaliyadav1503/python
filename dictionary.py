@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 dict1={
        "name":"sayali",
        "age":23,
@@ -166,5 +165,19 @@ myfam = {
        "child2":child2,
        "child3":child3
        }
->>>>>>> 843bfec2f48d80c70bef86237bf3b9827caa649e
 print(myfam)
+
+#square of no.
+nums = [1, 2, 3, 4]
+squares = {x: x*x for x in nums}
+print(squares)
+
+#example
+students = {
+    "Rahul": 85,
+    "Neha": 92,
+    "Amit": 78
+}
+
+for name, marks in students.items():
+    print(name, "scored", marks)
