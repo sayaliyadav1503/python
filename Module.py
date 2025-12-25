@@ -6,7 +6,11 @@ from math import sqrt
 print(sqrt(25))
 
 
+data = {"name": "Amit", "age": 22}
+json_data = json.dumps(data)
 
+print(json_data)
+print(type(json_data))
 
 
 
