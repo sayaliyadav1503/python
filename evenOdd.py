@@ -1,5 +1,11 @@
-n=11
-if n % 2==0:
-    print("no. is even")
+n=int(input("enter no:"))
+if n%2==0:
+    print("even no")
 else:
-    print("no. is odd")
+    print("odd")
+
+n=13
+if n%2==0:
+    print("even")
+else:
+    print("odd")
