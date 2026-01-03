@@ -8,12 +8,13 @@ list1=[1,2,3,5,6,7,8,9,3,5,6]
 unique=set(list(list1))
 print(list1)
 
+#
 nums = [1, 2, 3, 2, 4, 1, 5]
 
 unique_nums = list(dict.fromkeys(nums))
 print(unique_nums)
 
-
+#
 my_list = [1, 2, 3, 2, 4, 1, 5]
 new_list = []
 
